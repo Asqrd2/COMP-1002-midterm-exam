@@ -1,0 +1,59 @@
+@import url('./layout.css');
+
+
+/* HEADER */
+body > header {
+    height: 300px;
+    background: url(../images/charlie-harris-U20fx1ZOAIg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body > header > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    
+    
+}
+
+body > header > h2 {
+    color: #e67e22;
+    text-align: center;
+    font-size: 3.5em;
+
+}
+
+
+/* ASIDE */
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1em;
+    order: 2;
+    border-top: 1em;
+    border-left: 1em;
+    
+   
+    
+  
+}
+
+
+
+/* MAIN */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+
+    
+}
